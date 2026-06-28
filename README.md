@@ -20,7 +20,7 @@ Etsy doesn't publish per-listing sales, so monthly **sales and revenue are model
 
 ## Setup
 
-1. Get a free Etsy API key: https://www.etsy.com/developers/register
+1. You must already have an existing Etsy API key.
 2. `pip install flask flask-cors requests`
 3. `export ETSY_API_KEY="your_key"` (Windows: `set ETSY_API_KEY=your_key`)
 4. `python etsy_backend.py`
